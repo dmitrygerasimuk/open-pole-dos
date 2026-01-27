@@ -1,0 +1,22 @@
+system dos
+option map
+option eliminate
+option stack=2048
+name OPENPOLE.EXE
+file BARABAN.OBJ file BGI_MOUS.OBJ
+file BGI_PALE.OBJ file BOSS_MOD.OBJ
+file CSTR.OBJ file DEBUGLOG.OBJ
+file EGA_DRAW.OBJ file EGA_TEXT.OBJ
+file END_SCRE.OBJ file GIRL.OBJ
+file GLOBALS.OBJ file INPUT.OBJ
+file LETTER.OBJ file MONEYBOX.OBJ
+file OPENPOLE.OBJ file OPPONENT.OBJ
+file POLE.OBJ file POLE_DIA.OBJ
+file PRIZE.OBJ file RANDOM.OBJ
+file RESOURCE.OBJ file RLE_DRAW.OBJ
+file SALE_INF.OBJ file SCORE.OBJ
+file SOUND.OBJ file STACKPAT.OBJ
+file STARTSCR.OBJ file SYS_DELA.OBJ
+file UI_ANSWE.OBJ file UI_CHOIC.OBJ
+file UI_HOF.OBJ file UI_KEYMA.OBJ
+file WORDS.OBJ file YAKUBOVI.OBJ
