@@ -1,6 +1,4 @@
 # Watcom / DOS build artifacts
-*.TXT
-*.txt
 *.obj
 *.o
 v
