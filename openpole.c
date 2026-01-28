@@ -37,10 +37,7 @@
 
 #define OPENPOLE_VERSION_STR "0.1.0"
 
-extern void startscreen(Resources *R);
 Resources gRes;
- 
-
 extern void test_run_all();
 
 static u8 bios_reports_fpu(void)
@@ -115,12 +112,12 @@ void parse_args(int argc, char **argv)
             if (val && parse_u16_dec(val, &v)) {
                 g_seed = v;
                 
-                i++; // 
+                i++; 
             }
             continue;
         }
 
-        //  
+           
         if ((!strncmp(a, "-sd=", 3) || !strncmp(a, "-SD=", 3)) &&
             a[3] && parse_u16_dec(a + 3, &v)) {
             g_seed = v;
@@ -136,7 +133,7 @@ void parse_args(int argc, char **argv)
             continue;
         }
 
-        // --- mono ---
+        // для монохромных EGA дисплеев
         if (!strcmp(a, "-m") || !strcmp(a, "-M") ||
             !strcmp(a, "--mono") || !strcmp(a, "--MONO")) {
             g_addon_mono_palette = 1;
